@@ -1,0 +1,63 @@
+@import url('https://fonts.google.com/specimen/Anton#type-tester');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+body{
+    height: 100vh;
+    background: -webkit-repeating-linear-gradient(-45deg, #71b7e6, #69a6ce, #b98acc, #ee8176, #b98acc, #69a6ce, #9b59b6);
+    background-size: 400%;
+}
+
+#error-page{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    right: 15%;
+    bottom:25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+#error-page .content{
+    max-width: 600px;
+    text-align: center;
+}
+.content h2.header{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #000;
+    max-width: 600px;
+    font-size: 2em;
+}
+.content p{
+    font-size: 1.2em;
+    color: #0d0d0d;
+
+}
+.content .btns{
+        margin: 25px 0;
+        display: inline-flex;
+}
+.content .btns a{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    border :2px solid #800000;
+    color :#800000;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+.content.btns a:hover{
+    color:#fff;
+    background: honeydew; 
+
+}
